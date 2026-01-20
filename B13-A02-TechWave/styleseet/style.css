@@ -465,4 +465,120 @@ padding: 24px;
              }
    
 }
+@media screen and (max-width:576px) {
+  
+  .Featured-section{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .youtub-section{
+  width: 90%;  
+  flex-direction: column; 
+  gap: 16px;
+  
+}
+.youtub-card{
+  width: 90%;
+}
+.meet-section{width:90%;}
+.host-section{
+  flex-direction: column;
+  text-align: center;}
+  .host-img{
+    margin: 0 auto;
+  }
+  .contruct-link{
+    justify-content: center;
+  }
+  /* choose section */
+  
 
+  .choose{  
+    width: 92%;
+    padding:40px 20px;
+   
+  }
+  .choose-heading{
+    font-size: 2rem;
+  }
+  .choose-grid h1{
+    font-size: 1.35rem;
+  }
+  .choose-grid p{
+    font-size: 0.9rem;
+  }
+ .choose-grid{ 
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+    max-height: 1450px;
+ }
+ .Premium-Audio{
+  padding: 24px;
+ }
+ .Premium-Audio, .Mobile-friendly, .Global-Community, .Exclusive-Interviews, .Rich-Resources{
+  grid-column: auto;
+  grid-row: auto;
+
+}
+/* footer section */
+.footer-section{
+  background-size: cover ;
+  background-position: center;
+}
+.footer-content{
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+.footer-logo ,.footer-logo2{
+  font-size: 3rem;
+ }
+   .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 16px;
+
+  } 
+ .spotify , .instagram, .twitter, .linkedin{
+    text-align: center;
+  } 
+
+  .copyright-section{
+    font-size: 1rem;
+  }
+  /* podcast details */
+
+  .podcast-details{
+    width: 90%;
+  }
+  .podcast-details h1{
+    font-size: 2rem;
+  }
+  .podcast-card-section{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 16px;
+  }
+  .podcast-card{
+    text-align: center;
+  }
+  /* hero section */
+  hero-section{
+    width: 100%;
+  }
+  .btn{ font-size:.9rem;
+  padding: 6px;}
+  .hero-details h1{
+    font-size: 2.5rem;
+  }
+  .hero-details p{
+    font-size: 1rem;
+  }
+  .hero-btn{
+    gap:10px
+  }
+
+}
